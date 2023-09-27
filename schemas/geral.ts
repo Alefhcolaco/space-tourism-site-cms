@@ -1,0 +1,38 @@
+export default {
+    title: 'Geral',
+    name: 'geral',
+    type: 'document',
+    fields: [
+        {
+            title: 'Title',
+            name: 'title',
+            type: 'string'
+        },
+        {
+            name: 'navigation',
+            type: 'array',
+            title: 'Navegação',
+            of: [
+                {
+                    name: 'navigationItem',
+                    type: 'object',
+                    title: 'Item de navegação',
+                    fields: [
+                        {
+                            name: 'title',
+                            type: 'string',
+                            title: 'Título',
+                            validation: (Rule: any) => Rule.required(),
+                        },
+                        {
+                            name: 'link',
+                            type: 'string',
+                            title: 'Link',
+                            validation: (Rule: any) => Rule.required(),
+                        },
+                    ],
+                },
+            ],
+        },
+    ],
+}
