@@ -19,6 +19,11 @@ export default {
                     title: 'Item de navegação',
                     fields: [
                         {
+                            title: 'Number',
+                            name: 'number',
+                            type: 'string',
+                        },
+                        {
                             name: 'title',
                             type: 'string',
                             title: 'Título',
