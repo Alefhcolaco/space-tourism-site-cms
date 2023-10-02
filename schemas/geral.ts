@@ -15,7 +15,7 @@ export default {
             of: [
                 {
                     name: 'navigationItem',
-                    type: 'object',g
+                    type: 'object',
                     title: 'Item de navegação',
                     fields: [
                         {
