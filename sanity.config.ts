@@ -2,8 +2,6 @@ import { defineConfig } from 'sanity'
 import { deskTool } from 'sanity/desk'
 import { visionTool } from '@sanity/vision'
 import { schemaTypes } from './schemas'
-import { iconPicker } from 'sanity-plugin-icon-picker'
-import { HomeIcon, ControlsIcon } from '@sanity/icons'
 
 const singletonActions = new Set(["publish", "discardChanges", "restore"])
 
@@ -26,7 +24,6 @@ export default defineConfig({
             S.listItem()
               .title("Geral")
               .id("geral")
-              .icon(ControlsIcon)
               .child(
                 S.document()
                   .schemaType("geral")
@@ -35,7 +32,6 @@ export default defineConfig({
             S.listItem()
               .title("Home")
               .id("homepage")
-              .icon(HomeIcon)
               .child(
                 S.document()
                   .schemaType("homepage")
