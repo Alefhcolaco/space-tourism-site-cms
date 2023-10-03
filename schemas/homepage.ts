@@ -24,6 +24,21 @@ export default {
             ]
         },
         {
+            title: 'Background image hero mobile',
+            name: 'backgroundHeroMobile',
+            type: 'image',
+            options: {
+                hotspot: true
+            },
+            fields: [
+                {
+                    title: 'Alt',
+                    name: 'alt',
+                    type: 'string',
+                }
+            ]
+        },
+        {
             title: 'Title hero',
             name: 'titleHero',
             type: 'string'
