@@ -10,7 +10,7 @@ export default {
         },
         {
             title: 'Background image hero',
-            name: 'backgroundHero',
+            name: 'backGroundHero',
             type: 'image',
             options: {
                 hotspot: true
@@ -24,8 +24,8 @@ export default {
             ]
         },
         {
-            title: 'Background image hero mobile',
-            name: 'backgroundHeroMobile',
+            title: 'Background image hero pc',
+            name: 'backGroundHeroLg',
             type: 'image',
             options: {
                 hotspot: true
