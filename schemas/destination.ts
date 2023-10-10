@@ -19,25 +19,6 @@ export default {
             type: 'string'
         },
         {
-            title: 'Navigation tabs',
-            name: 'navigationTabs',
-            type: 'array',
-            of: [
-                {
-                    title: 'Tab links',
-                    name: 'tabLinks',
-                    type: 'object',
-                    fields: [
-                        {
-                            title: 'Tab link',
-                            name: 'link',
-                            type: 'string',
-                        }
-                    ]
-                }
-            ],
-        },
-        {
             title: 'Planets cards',
             name: 'planetsCards',
             type: 'array',
