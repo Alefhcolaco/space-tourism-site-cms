@@ -11,7 +11,7 @@ export default {
         {
             title: 'Span number',
             name: 'spanNumber',
-            type: 'number'
+            type: 'string'
         },
         {
             title: 'Title hero',
