@@ -9,6 +9,21 @@ export default {
             type: 'string'
         },
         {
+            title: 'Background image hero',
+            name: 'backGroundHero',
+            type: 'image',
+            options: {
+                hotspot: true
+            },
+            fields: [
+                {
+                    title: 'Alt',
+                    name: 'alt',
+                    type: 'string',
+                }
+            ]
+        },
+        {
             title: 'Span number',
             name: 'spanNumber',
             type: 'string'
